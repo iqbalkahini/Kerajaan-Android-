@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailTarumanegara">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/details" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="258dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/gambar_tarumanegara" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Kerajaan Tarumanegara"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="a"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintVertical_bias="0.057">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30px">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans"
+                android:lineSpacingExtra="0sp"
+                android:text="Kerajaan Tarumanegara merupakan salah satu kerajaan Hindu-Buddha tertua di Pulau Jawa. Berdiri sekitar abad ke-4 Masehi, kerajaan ini pernah mencapai puncak kejayaannya di bawah kepemimpinan Raja Purnawarman. Pusat kerajaan diperkirakan berada di sekitar wilayah Jakarta dan Banten saat ini.Didirikan oleh Rajadirajaguru Jayasingawarman, Kerajaan Tarumanegara mengalami perkembangan pesat di bawah kepemimpinan Purnawarman. Masa pemerintahannya ditandai dengan pembangunan infrastruktur yang megah, seperti pembuatan kanal sepanjang 612 km untuk irigasi dan transportasi. Prasasti-prasasti yang ditemukan, seperti Prasasti Tugu dan Prasasti Kebon Kopi, menjadi bukti kehebatan dan kemakmuran kerajaan pada masa itu.
+"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans"
+                android:lineSpacingExtra="0sp"
+                android:paddingTop="25px"
+                android:text="Selain prasasti, peninggalan Kerajaan Tarumanegara lainnya yang masih dapat ditemukan hingga kini adalah berbagai artefak, seperti perhiasan, alat-alat rumah tangga, dan arca. Dari peninggalan-peninggalan ini, para ahli sejarah dapat merekonstruksi kehidupan masyarakat Tarumanegara yang kaya akan budaya dan tradisi.Sayangnya, Kerajaan Tarumanegara mengalami kemunduran dan akhirnya runtuh. Penyebab pasti keruntuhannya masih menjadi misteri hingga kini. Beberapa teori menyebutkan faktor alam, seperti letusan gunung berapi atau perubahan iklim, serta faktor politik, seperti serangan dari kerajaan lain, sebagai penyebabnya.
+"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans"
+                android:lineSpacingExtra="0sp"
+                android:paddingTop="25px"
+                android:text="Meskipun telah lama runtuh, Kerajaan Tarumanegara meninggalkan warisan budaya yang sangat berharga bagi bangsa Indonesia. Keberadaannya menjadi bukti bahwa peradaban manusia di Nusantara telah berkembang sejak zaman dahulu. Nilai-nilai luhur seperti kepemimpinan yang bijaksana, pembangunan infrastruktur, dan penghormatan terhadap lingkungan hidup yang tercermin dalam sejarah Tarumanegara masih relevan hingga saat ini."
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/copyright" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.42"
+        app:srcCompat="@drawable/btn_back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

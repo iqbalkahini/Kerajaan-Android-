@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailMajapahit">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/details" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="258dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/gambar_majapahit" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Kerajaan Majapahit"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="a"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintVertical_bias="0.057">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30px">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans"
+                android:lineSpacingExtra="0sp"
+                android:text="Kerajaan Majapahit adalah salah satu kerajaan terbesar dalam sejarah Indonesia dan Asia Tenggara, yang berdiri sekitar abad ke-13 hingga abad ke-16. Kerajaan ini terkenal sebagai pusat peradaban yang maju, dengan pengaruh yang sangat besar dalam bidang politik, ekonomi, seni, budaya, dan agama. Majapahit juga dikenal karena kemampuan diplomatik dan militer yang luar biasa, yang memungkinkan kerajaan ini menguasai hampir seluruh wilayah Nusantara dan bahkan wilayah luar negeri di Asia Tenggara."
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans"
+                android:lineSpacingExtra="0sp"
+                android:paddingTop="25px"
+                android:text="Kerajaan Majapahit didirikan pada tahun 1293 M oleh Raden Wijaya, seorang tokoh yang sebelumnya terlibat dalam peristiwa pembunuhan Raja Singosari, Kertanegara. Setelah kematian Kertanegara dan keruntuhan Kerajaan Singosari, Raden Wijaya, yang saat itu merupakan pejabat tinggi di Singosari, berhasil mendirikan kerajaan baru dengan nama Majapahit. Pada awal berdirinya, Majapahit menghadapi tantangan dari Jayakatwang, seorang raja dari Kerajaan Gelang-Gelang yang berusaha menggulingkan Raden Wijaya. Namun, dengan bantuan dari pasukan Mongol yang dikirim oleh Kaisar Kubilai Khan dari Dinasti Yuan (Cina), Raden Wijaya berhasil mengalahkan Jayakatwang dan mendirikan Majapahit dengan ibu kota di Trowulan, yang terletak di Jawa Timur, sekitar 60 km sebelah barat Surabaya."
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/copyright" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.42"
+        app:srcCompat="@drawable/btn_back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

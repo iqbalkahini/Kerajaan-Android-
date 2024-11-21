@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailDemak">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/details" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="258dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/gambar_islam_demak" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Kerajaan Islam Demak"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="a"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintVertical_bias="0.057">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30px">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans"
+                android:lineSpacingExtra="0sp"
+                android:text="Kerajaan Islam Demak, yang didirikan sekitar tahun 1475 oleh Raden Patah, memainkan peran penting dalam penyebaran Islam di Pulau Jawa. Di bawah pemerintahan Sultan Trenggana (1521–1546), Demak mencapai puncaknya, memperluas pengaruhnya ke wilayah seperti Cirebon, Banten, dan pesisir utara Jawa. Namun, setelah kematian Sultan Trenggana, kerajaan ini mengalami perpecahan internal akibat konflik suksesi, yang akhirnya menyebabkan keruntuhannya dan digantikan oleh Kerajaan Pajang. Meskipun demikian, warisan Islam yang ditanamkan oleh Demak tetap bertahan dan memberikan pengaruh besar pada kerajaan-kerajaan Islam selanjutnya di Jawa."
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans"
+                android:lineSpacingExtra="0sp"
+                android:paddingTop="25px"
+                android:text="Peninggalan-peninggalan dari Kerajaan Demak, seperti Masjid Agung Demak yang dibangun pada masa Sultan Trenggana, masih menjadi simbol kejayaan Islam di Jawa hingga kini. Selain itu, peninggalan arsitektur Islam Jawa yang menggabungkan elemen lokal dan Timur Tengah, serta makam-makam para sultan dan pejabat kerajaan, mencerminkan perkembangan seni dan budaya Islam di Jawa. "
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/copyright" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.42"
+        app:srcCompat="@drawable/btn_back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

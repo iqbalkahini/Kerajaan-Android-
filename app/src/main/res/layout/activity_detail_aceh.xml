@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailAceh">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/details" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="258dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/gambar_kerajaan_aceh" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Kerajaan Aceh"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="a"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintVertical_bias="0.057">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30px">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans"
+                android:lineSpacingExtra="0sp"
+                android:text="Kerajaan Aceh didirikan pada tahun 1496 oleh Sultan Ali Mughayat Shah dan mencapai puncak kejayaannya di bawah Sultan Iskandar Muda (1607–1636). Pada masa ini, Aceh menjadi salah satu kerajaan maritim terbesar di Asia Tenggara, menguasai perdagangan rempah-rempah dan menjadi pusat penyebaran Islam di kawasan tersebut. Iskandar Muda memperluas wilayah kerajaan dan berhasil mengalahkan Portugis, serta menjalin hubungan dagang dengan berbagai negara besar. Namun, setelah kematian Sultan Iskandar Muda, Aceh mulai menghadapi ketidakstabilan politik internal, yang ditambah dengan ancaman dari Belanda yang semakin agresif melalui *VOC* untuk menguasai perdagangan rempah-rempah di Sumatra dan Maluku."
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans"
+                android:lineSpacingExtra="0sp"
+                android:paddingTop="25px"
+                android:text="Aceh terlibat dalam beberapa perang dengan Belanda sepanjang abad ke-17 hingga akhir abad ke-19, termasuk *Perang Aceh* (1873–1904), yang berakhir dengan kekalahan Aceh. Keruntuhan kerajaan ini disebabkan oleh kombinasi dari kolonialisasi Eropa, konflik internal, serta ketidakmampuan Aceh untuk mempertahankan diri terhadap serangan Belanda yang lebih modern dan terorganisir. Pada tahun 1904, setelah perlawanan sengit, Aceh akhirnya jatuh ke tangan Belanda dan menjadi bagian dari koloni Hindia Belanda. Meskipun kerajaan ini runtuh, warisan budaya dan semangat perlawanan Aceh tetap hidup hingga saat ini."
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/copyright" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.42"
+        app:srcCompat="@drawable/btn_back" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

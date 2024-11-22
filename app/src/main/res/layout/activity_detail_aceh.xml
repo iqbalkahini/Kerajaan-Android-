@@ -64,7 +64,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/nunito_sans"
+                android:fontFamily="@font/ubuntu_medium"
                 android:lineSpacingExtra="0sp"
                 android:text="Kerajaan Aceh didirikan pada tahun 1496 oleh Sultan Ali Mughayat Shah dan mencapai puncak kejayaannya di bawah Sultan Iskandar Muda (1607–1636). Pada masa ini, Aceh menjadi salah satu kerajaan maritim terbesar di Asia Tenggara, menguasai perdagangan rempah-rempah dan menjadi pusat penyebaran Islam di kawasan tersebut. Iskandar Muda memperluas wilayah kerajaan dan berhasil mengalahkan Portugis, serta menjalin hubungan dagang dengan berbagai negara besar. Namun, setelah kematian Sultan Iskandar Muda, Aceh mulai menghadapi ketidakstabilan politik internal, yang ditambah dengan ancaman dari Belanda yang semakin agresif melalui *VOC* untuk menguasai perdagangan rempah-rempah di Sumatra dan Maluku."
                 android:textAlignment="textStart"
@@ -73,11 +73,12 @@
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/nunito_sans"
+                android:layout_height="182dp"
+                android:fontFamily="@font/ubuntu_medium"
                 android:lineSpacingExtra="0sp"
                 android:paddingTop="25px"
                 android:text="Aceh terlibat dalam beberapa perang dengan Belanda sepanjang abad ke-17 hingga akhir abad ke-19, termasuk *Perang Aceh* (1873–1904), yang berakhir dengan kekalahan Aceh. Keruntuhan kerajaan ini disebabkan oleh kombinasi dari kolonialisasi Eropa, konflik internal, serta ketidakmampuan Aceh untuk mempertahankan diri terhadap serangan Belanda yang lebih modern dan terorganisir. Pada tahun 1904, setelah perlawanan sengit, Aceh akhirnya jatuh ke tangan Belanda dan menjadi bagian dari koloni Hindia Belanda. Meskipun kerajaan ini runtuh, warisan budaya dan semangat perlawanan Aceh tetap hidup hingga saat ini."
+                android:textSize="13sp"
                 android:textStyle="bold" />
 
 
@@ -104,6 +105,15 @@
         app:layout_constraintTop_toBottomOf="@+id/scrollView2"
         app:layout_constraintVertical_bias="0.42"
         app:srcCompat="@drawable/btn_back" />
+
+    <Button
+        android:id="@+id/BA1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

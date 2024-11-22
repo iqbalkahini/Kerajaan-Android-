@@ -1,0 +1,171 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sigmas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/details" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="Peninggalan Kerajaan Aceh"
+        android:textAlignment="center"
+        android:textColor="#FFFBFB"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/sv_a1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="164dp"
+        android:contentDescription="@string/app_name"
+        android:scrollbarStyle="insideInset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageView20"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="213dp"
+                android:layout_height="101dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="16dp"
+                android:text="Masjid Raya Baiturrahman merupakan salah satu simbol agama, budaya, dan perjuangan dari rakyat Aceh.  Masjid ini sudah didirikan sejak masa pemerintahan Sultan Iskandar Muda di tahun 1612."
+                android:textAlignment="center"
+                app:layout_constraintStart_toEndOf="@+id/imageView22"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="161dp"
+                android:layout_height="139dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="4dp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView23"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/gambar_kerajaan_aceh" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="211dp"
+                android:layout_height="124dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="36dp"
+                android:text="Taman Sari Gunongan merupakan peninggalan Kerajaan Aceh Darussalam yang didirikan pada masa pemerintahan Sultan Iskandar Muda."
+                android:textAlignment="center"
+                app:layout_constraintStart_toEndOf="@+id/imageView23"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="162dp"
+                android:layout_height="135dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="12dp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/tamansarigunongan" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="206dp"
+                android:layout_height="116dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:text="Kerajaan Aceh memiliki tiga meriam peninggalan masa pemerintahan Sultan Iskandar Muda.  Lokasi peninggalan ini berada di Gampong Drien Rampak, Kecamatan Arongan Lambek, Aceh Barat."
+                android:textAlignment="center"
+                app:layout_constraintStart_toEndOf="@+id/imageView24"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="162dp"
+                android:layout_height="137dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginBottom="3dp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView25"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/meriamkesultananaceh" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="204dp"
+                android:layout_height="123dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="20dp"
+                android:text="Makan Sultan Iskandar Muda terletak di dekat Krueng Daroy yang bersebelahan dengan Mauligoe Aceh atau kediaman Gubernur Aceh."
+                android:textAlignment="center"
+                app:layout_constraintStart_toEndOf="@+id/imageView25"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="162dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="152dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/makamsultaniskandarmuda" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="162dp"
+                android:layout_height="145dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="3dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/bentengindrapatra" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="206dp"
+                android:layout_height="113dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:text="Benteng Indra Patra didirikan oleh salah satu Kerajaan Hindu pertama di Aceh, yaitu Kerajaan Lamuri.  Kerajaan Lamuri inilah yang menjadi cikal-bakal dari Kerajaan Aceh Darussalam, Adjarian."
+                android:textAlignment="center"
+                app:layout_constraintStart_toEndOf="@+id/imageView27"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/BB1T"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

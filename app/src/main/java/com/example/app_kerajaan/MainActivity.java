@@ -11,7 +11,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-    private int waktu_loading = 1000;
+    private int waktu_loading = 1500;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

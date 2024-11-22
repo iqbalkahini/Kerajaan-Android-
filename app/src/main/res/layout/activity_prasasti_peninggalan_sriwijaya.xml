@@ -1,0 +1,151 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sigmas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/details" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="Peninggalan Kerajaan Sriwijaya"
+        android:textAlignment="center"
+        android:textColor="#FFFBFB"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/sv_a1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="164dp"
+        android:contentDescription="@string/app_name"
+        android:scrollbarStyle="insideInset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageView20"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="213dp"
+                android:layout_height="101dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="16dp"
+                android:text="Prasasti Kedukan Bukit (683 M) Ditemukan di Palembang, prasasti ini mencatatkan pendirian Kerajaan Sriwijaya oleh Raja Dapunta Hyang. Prasasti ini menceritakan perjalanan Dapunta Hyang dalam menaklukkan wilayah sekitar untuk membangun Sriwijaya."
+                android:textAlignment="center"
+                app:layout_constraintStart_toEndOf="@+id/imageView22"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="161dp"
+                android:layout_height="139dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="4dp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView23"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/kedudukanbukit" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="223dp"
+                android:layout_height="128dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="36dp"
+                android:text="Prasasti Telaga Batu ditemukan pada tahun 1935 di Palembang, diperkirakan berasal dari abad ke-7 M, sejalan dengan Prasasti Kedukan Bukit. Prasasti ini berisi kutukan terhadap siapa pun, termasuk pejabat, ahli senjata, saudagar, dan pekerja kerajaan, yang melanggar peraturan atau tidak patuh terhadap perintah raja di Kadatuan Sriwijaya."
+                android:textAlignment="center"
+                android:textSize="11sp"
+                app:layout_constraintStart_toEndOf="@+id/imageView23"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="162dp"
+                android:layout_height="135dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="12dp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/telagabatu" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="206dp"
+                android:layout_height="116dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:text="Prasasti Kota Kapur ditemukan di Pulau Bangka pada 1892 oleh JK van der Muelen. Menggunakan aksara Pallawa dan Bahasa Melayu Kuno, prasasti ini mencatatkan penaklukan Pulau Bangka oleh Kerajaan Sriwijaya."
+                android:textAlignment="center"
+                app:layout_constraintStart_toEndOf="@+id/imageView24"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="162dp"
+                android:layout_height="137dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginBottom="3dp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView25"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/kotakapur" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="207dp"
+                android:layout_height="136dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="20dp"
+                android:text="Candi Muaro Jambi, ditemukan pada abad ke-19 di tepi Sungai Batanghari, Kabupaten Muaro Jambi. Diperkirakan dibangun antara abad ke-7 hingga ke-12, kompleks ini memiliki sekitar 110 reruntuhan candi, yang sebagian belum dipugar."
+                android:textAlignment="center"
+                app:layout_constraintStart_toEndOf="@+id/imageView25"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="162dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="152dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/candimuarajambi" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/BB1T"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

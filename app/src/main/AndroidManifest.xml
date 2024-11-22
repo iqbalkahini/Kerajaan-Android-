@@ -43,6 +43,15 @@
             android:name=".Menu"
             android:exported="true" />
         <activity
+            android:name=".prasasti_aceh"
+            android:exported="true" />
+        <activity
+            android:name=".prasasti_sriwijaya"
+            android:exported="true" />
+        <activity
+            android:name=".prasasti_tarumanegara"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.App_Kerajaan">

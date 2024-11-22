@@ -3,7 +3,7 @@ package com.example.app_kerajaan;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
-
+import android.widget.Button;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -19,9 +19,13 @@ public class DetailTarumanegara extends AppCompatActivity {
         setContentView(R.layout.activity_detail_tarumanegara);
 
         ImageView back = findViewById(R.id.imageView17);
+        Button next = findViewById(R.id.BA1);
 
         back.setOnClickListener(V -> {
             startActivity(new Intent(DetailTarumanegara.this, Menu.class));
+        });
+        next.setOnClickListener(V -> {
+            startActivity(new Intent(DetailTarumanegara.this, prasasti_tarumanegara.class));
         });
     }
 }

@@ -2,6 +2,7 @@ package com.example.app_kerajaan;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
@@ -19,9 +20,12 @@ public class DetailDemak extends AppCompatActivity {
         setContentView(R.layout.activity_detail_demak);
 
         ImageView back = findViewById(R.id.imageView17);
-
+        Button next = findViewById(R.id.BA1);
         back.setOnClickListener(V -> {
             startActivity(new Intent(DetailDemak.this, Menu.class));
+        });
+        next.setOnClickListener(V -> {
+            startActivity(new Intent(DetailDemak.this, prasasti_demak.class));
         });
     }
 }

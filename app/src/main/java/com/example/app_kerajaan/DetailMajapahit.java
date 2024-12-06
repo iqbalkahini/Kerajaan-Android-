@@ -19,9 +19,13 @@ public class DetailMajapahit extends AppCompatActivity {
         setContentView(R.layout.activity_detail_majapahit);
 
         ImageView back = findViewById(R.id.imageView17);
+        ImageView next = findViewById(R.id.imageView29);
 
         back.setOnClickListener(V -> {
             startActivity(new Intent(DetailMajapahit.this, Menu.class));
         });
+//        next.setOnClickListener(V -> {
+//            startActivity(new Intent(DetailMajapahit.this, prasasti_majapahit.class));
+//        });
     }
 }

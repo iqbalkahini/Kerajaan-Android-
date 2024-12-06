@@ -19,7 +19,7 @@ public class DetailTarumanegara extends AppCompatActivity {
         setContentView(R.layout.activity_detail_tarumanegara);
 
         ImageView back = findViewById(R.id.imageView17);
-        Button next = findViewById(R.id.BA1);
+        ImageView next = findViewById(R.id.imageView33);
 
         back.setOnClickListener(V -> {
             startActivity(new Intent(DetailTarumanegara.this, Menu.class));

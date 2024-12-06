@@ -68,6 +68,7 @@
                 android:lineSpacingExtra="0sp"
                 android:text="Kerajaan Singosari adalah sebuah kerajaan Hindu-Buddha yang terletak di wilayah Jawa Timur, Indonesia, dan merupakan salah satu kerajaan besar di Nusantara pada abad ke-13 Masehi. Singosari dikenal sebagai penerus kerajaan Kediri dan pendahulu dari kerajaan Majapahit yang sangat terkenal. Meskipun kerajaan ini relatif singkat berdirinya (sekitar 1222–1292 M), Singosari memiliki peranan penting dalam sejarah Indonesia, terutama dalam bidang politik, budaya, dan hubungan internasional."
                 android:textAlignment="textStart"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -78,7 +79,9 @@
                 android:lineSpacingExtra="0sp"
                 android:paddingTop="25px"
                 android:text="Kerajaan Singosari didirikan pada tahun 1222 M oleh Ken Arok, seorang tokoh yang awalnya berasal dari rakyat biasa dan sempat menjadi perampok. Ken Arok berhasil merebut kekuasaan dari raja Kediri yang terakhir, Kertajaya, dalam sebuah pertempuran besar yang dikenal sebagai Perang Ganter. Ken Arok mengalahkan Kertajaya dan mendirikan kerajaan baru yang disebut Singosari dengan ibu kota di Singosari, yang terletak di sekitar daerah Malang, Jawa Timur.Ken Arok mengklaim dirinya sebagai raja dan mendirikan dinasti Arok. Ia kemudian mengubah nama kerajaan menjadi Singosari, yang diyakini berasal dari nama sebuah tempat yang memiliki arti 'singa' (singa) dan 'sari' (inti atau permata). Singosari kemudian berkembang menjadi kerajaan yang cukup besar, dengan wilayah kekuasaan yang meliputi sebagian besar Jawa Timur."
-                android:textStyle="bold" />
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
 
 
         </LinearLayout>
@@ -105,12 +108,15 @@
         app:layout_constraintVertical_bias="0.42"
         app:srcCompat="@drawable/btn_back" />
 
-    <Button
-        android:id="@+id/BA1"
+    <ImageView
+        android:id="@+id/imageView31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:text="Next"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.422"
+        app:srcCompat="@drawable/btn_next" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

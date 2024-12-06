@@ -68,6 +68,7 @@
                 android:text="Kerajaan Kutai adalah salah satu kerajaan tertua di Indonesia, yang terletak di wilayah Kalimantan Timur, tepatnya di sekitar Sungai Mahakam. Kerajaan ini berdiri sekitar abad ke-4 Masehi dan dikenal sebagai kerajaan Hindu pertama di Indonesia berdasarkan bukti prasasti yang ditemukan di wilayah tersebut. Kutai memainkan peran penting dalam sejarah awal perkembangan agama Hindu dan budaya India di Nusantara.
 "
                 android:textAlignment="textStart"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -78,6 +79,7 @@
                 android:lineSpacingExtra="0sp"
                 android:paddingTop="25px"
                 android:text="Kerajaan Kutai diperkirakan berdiri pada abad ke-4 Masehi. Lokasinya di sekitar Sungai Mahakam, yang merupakan jalur perdagangan penting di Kalimantan, membuat kerajaan ini memiliki akses ke perdagangan laut, yang memungkinkan mereka menjalin hubungan dengan kerajaan-kerajaan lain di Asia Tenggara dan India. Hal ini juga memfasilitasi masuknya pengaruh kebudayaan India, terutama dalam hal agama Hindu, ke wilayah Kutai. Informasi utama tentang Kerajaan Kutai berasal dari prasasti-prasasti yang ditemukan di wilayah Muara Kaman, sekitar 30 km dari Samarinda. Prasasti yang paling terkenal adalah Prasasti Yupa. Yupa adalah batu atau tugu yang digunakan untuk mencatatkan peristiwa penting, biasanya terkait dengan upacara atau persembahan kepada dewa-dewa Hindu."
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
 
@@ -105,13 +107,15 @@
         app:layout_constraintVertical_bias="0.42"
         app:srcCompat="@drawable/btn_back" />
 
-    <Button
-        android:id="@+id/BA1"
+    <ImageView
+        android:id="@+id/imageView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:text="Next"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.422"
+        app:srcCompat="@drawable/btn_next" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

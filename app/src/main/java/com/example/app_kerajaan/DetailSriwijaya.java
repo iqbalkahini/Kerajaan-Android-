@@ -19,7 +19,7 @@ public class DetailSriwijaya extends AppCompatActivity {
         setContentView(R.layout.activity_detail_sriwijaya);
 
         ImageView back = findViewById(R.id.imageView17);
-        Button next = findViewById(R.id.BA1);
+        ImageView next = findViewById(R.id.imageView32);
         back.setOnClickListener(V -> {
             startActivity(new Intent(DetailSriwijaya.this, Menu.class));
         });

@@ -19,9 +19,13 @@ public class DetailBali extends AppCompatActivity {
         setContentView(R.layout.activity_detail_bali);
 
         ImageView back = findViewById(R.id.imageView17);
+        ImageView next = findViewById(R.id.imageView26);
 
         back.setOnClickListener(V -> {
             startActivity(new Intent(DetailBali.this, Menu.class));
         });
+//        next.setOnClickListener(V -> {
+//            startActivity(new Intent(DetailBali.this, prasasti_bali.class));
+//        });
     }
 }

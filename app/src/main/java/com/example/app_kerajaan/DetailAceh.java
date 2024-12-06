@@ -19,7 +19,7 @@ public class DetailAceh extends AppCompatActivity {
         setContentView(R.layout.activity_detail_aceh);
 
         ImageView back = findViewById(R.id.imageView17);
-        Button next = findViewById(R.id.BA1);
+        ImageView next = findViewById(R.id.imageView18);
 
         back.setOnClickListener(V -> {
             startActivity(new Intent(DetailAceh.this, Menu.class));

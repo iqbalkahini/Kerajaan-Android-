@@ -68,6 +68,7 @@
                 android:lineSpacingExtra="0sp"
                 android:text="Kerajaan Majapahit adalah salah satu kerajaan terbesar dalam sejarah Indonesia dan Asia Tenggara, yang berdiri sekitar abad ke-13 hingga abad ke-16. Kerajaan ini terkenal sebagai pusat peradaban yang maju, dengan pengaruh yang sangat besar dalam bidang politik, ekonomi, seni, budaya, dan agama. Majapahit juga dikenal karena kemampuan diplomatik dan militer yang luar biasa, yang memungkinkan kerajaan ini menguasai hampir seluruh wilayah Nusantara dan bahkan wilayah luar negeri di Asia Tenggara."
                 android:textAlignment="textStart"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -78,12 +79,24 @@
                 android:lineSpacingExtra="0sp"
                 android:paddingTop="25px"
                 android:text="Kerajaan Majapahit didirikan pada tahun 1293 M oleh Raden Wijaya, seorang tokoh yang sebelumnya terlibat dalam peristiwa pembunuhan Raja Singosari, Kertanegara. Setelah kematian Kertanegara dan keruntuhan Kerajaan Singosari, Raden Wijaya, yang saat itu merupakan pejabat tinggi di Singosari, berhasil mendirikan kerajaan baru dengan nama Majapahit. Pada awal berdirinya, Majapahit menghadapi tantangan dari Jayakatwang, seorang raja dari Kerajaan Gelang-Gelang yang berusaha menggulingkan Raden Wijaya. Namun, dengan bantuan dari pasukan Mongol yang dikirim oleh Kaisar Kubilai Khan dari Dinasti Yuan (Cina), Raden Wijaya berhasil mengalahkan Jayakatwang dan mendirikan Majapahit dengan ibu kota di Trowulan, yang terletak di Jawa Timur, sekitar 60 km sebelah barat Surabaya."
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
 
         </LinearLayout>
     </ScrollView>
 
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.198"
+        app:srcCompat="@drawable/btn_next" />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -105,12 +118,4 @@
         app:layout_constraintVertical_bias="0.42"
         app:srcCompat="@drawable/btn_back" />
 
-    <Button
-        android:id="@+id/BA1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:text="Next"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 </androidx.constraintlayout.widget.ConstraintLayout>

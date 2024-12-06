@@ -68,6 +68,7 @@
                 android:lineSpacingExtra="0sp"
                 android:text="Kerajaan Sriwijaya berdiri sekitar abad ke-7 M di wilayah Palembang, Sumatera Selatan, dan berkembang menjadi kekuatan maritim besar di Asia Tenggara. Dikenal sebagai pusat perdagangan dan pelayaran, Sriwijaya menguasai jalur perdagangan penting di Selat Malaka dan Laut Jawa. Dengan dukungan armada laut yang kuat, kerajaan ini mampu mengendalikan rute perdagangan antara India dan Tiongkok, yang menjadikannya pusat ekonomi regional yang makmur. Pada masa pemerintahan Raja Dapunta Hyang, Sriwijaya juga mulai memperluas pengaruhnya ke wilayah sekitarnya, termasuk Semenanjung Malaya dan beberapa bagian Jawa."
                 android:textAlignment="textStart"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -78,6 +79,7 @@
                 android:lineSpacingExtra="0sp"
                 android:paddingTop="25px"
                 android:text="Selain kekuatan maritim, Sriwijaya juga menjadi pusat pengajaran agama Buddha di Asia Tenggara, menarik biksu dari Tiongkok dan India, seperti I-Tsing. Namun, pada abad ke-11, kejayaannya mulai meredup akibat persaingan dagang dan serangan dari Kerajaan Chola pada tahun 1025 M, yang melemahkan Sriwijaya. Akibat melemahnya perdagangan dan tekanan dari kerajaan lain, Sriwijaya perlahan runtuh pada abad ke-13."
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
 
@@ -105,13 +107,15 @@
         app:layout_constraintVertical_bias="0.42"
         app:srcCompat="@drawable/btn_back" />
 
-    <Button
-        android:id="@+id/BA1"
+    <ImageView
+        android:id="@+id/imageView32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:text="Next"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.422"
+        app:srcCompat="@drawable/btn_next" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

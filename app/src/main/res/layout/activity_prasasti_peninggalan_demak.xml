@@ -56,6 +56,7 @@
                 android:text="Pawestren adalah sebuah ruang atau area khusus di dalam Masjid Agung Demak yang diperuntukkan bagi perempuan. Istilah &quot;Pawestren&quot; sendiri berasal dari bahasa Jawa yang berarti &quot;tempat perempuan&quot;. Pada masanya, pawestren merupakan bagian penting dalam struktur masjid sebagai ruang yang memberi kenyamanan dan fasilitas bagi perempuan untuk beribadah, terutama ketika masjid ini menjadi pusat kegiatan keagamaan di Demak. Di beberapa masjid Jawa, pawestren juga berfungsi sebagai tempat untuk pendidikan agama bagi perempuan."
                 android:textAlignment="center"
                 android:textSize="10sp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView22"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -78,6 +79,7 @@
                 android:text="Masjid Agung Demak adalah salah satu masjid tertua dan paling penting di Jawa yang didirikan pada masa pemerintahan Sultan Demak pertama, Raden Patah, sekitar abad ke-15. Masjid ini menjadi pusat penyebaran agama Islam di Pulau Jawa. Arsitektur masjid ini khas dengan atap tumpang (bertingkat) yang terbuat dari kayu jati dan didirikan menggunakan bahan-bahan lokal. Keberadaannya sangat signifikan dalam sejarah Islam di Indonesia, serta mencerminkan perpaduan antara budaya Islam dan budaya Jawa tradisional."
                 android:textAlignment="center"
                 android:textSize="10sp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView23"
                 app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -100,6 +102,7 @@
                 android:text="Soko Tatal adalah tiang utama yang terbuat dari kayu jati yang sangat besar dan digunakan sebagai penyangga utama bangunan Masjid Agung Demak. Tiang ini memiliki arti simbolis yang sangat penting, melambangkan kekuatan dan stabilitas agama Islam yang sedang berkembang di Jawa pada masa itu. Soko Tatal adalah simbol kekuatan kerajaan Demak yang menjunjung tinggi nilai-nilai keagamaan. Seringkali, soko tatal dianggap sebagai simbol penopang kehidupan spiritual dan sosial masyarakat Demak."
                 android:textAlignment="center"
                 android:textSize="10sp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView24"
                 app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
@@ -118,7 +121,7 @@
                 android:layout_width="222dp"
                 android:layout_height="120dp"
                 android:layout_marginStart="12dp"
-                android:layout_marginTop="52dp"
+                android:layout_marginTop="16dp"
                 android:text="Pintu Bledeg adalah pintu utama yang terdapat di Masjid Agung Demak. Pintu ini memiliki ukuran besar dan dibuat dengan detail ukiran yang sangat khas. Nama &quot;Bledeg&quot; sendiri konon berasal dari suara &quot;bledeg&quot; atau suara petir yang dianggap sebagai simbol dari kekuatan dan keteguhan. Pintu ini sering dianggap sebagai simbol pembukaan jalan untuk pencerahan dan penerimaan Islam di tanah Jawa"
                 android:textAlignment="center"
                 android:textSize="10sp"
@@ -138,16 +141,25 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
-    <Button
-        android:id="@+id/BB1T"
+    <ImageView
+        android:id="@+id/imageView34"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="16dp"
-        android:fontFamily="@font/ubuntu_medium"
-        android:text="Back"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView35"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/btn_menu" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="412dp"
+        android:layout_height="73dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/copyright" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

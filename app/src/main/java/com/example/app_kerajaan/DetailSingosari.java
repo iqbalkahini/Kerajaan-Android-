@@ -19,9 +19,13 @@ public class DetailSingosari extends AppCompatActivity {
         setContentView(R.layout.activity_detail_singosari);
 
         ImageView back = findViewById(R.id.imageView17);
+        ImageView next = findViewById(R.id.imageView31);
 
         back.setOnClickListener(V -> {
             startActivity(new Intent(DetailSingosari.this, Menu.class));
         });
+//        next.setOnClickListener(V -> {
+//            startActivity(new Intent(DetailSingosari.this, prasasti_singosari.class));
+//        });
     }
 }

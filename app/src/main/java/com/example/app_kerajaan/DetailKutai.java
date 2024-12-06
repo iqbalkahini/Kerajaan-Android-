@@ -19,7 +19,7 @@ public class DetailKutai extends AppCompatActivity {
         setContentView(R.layout.activity_detail_kutai);
 
         ImageView back = findViewById(R.id.imageView17);
-        Button next = findViewById(R.id.BA1);
+        ImageView next = findViewById(R.id.imageView28);
         back.setOnClickListener(V -> {
             startActivity(new Intent(DetailKutai.this, Menu.class));
         });

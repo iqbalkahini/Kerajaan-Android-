@@ -68,6 +68,7 @@
                 android:lineSpacingExtra="0sp"
                 android:text="Kerajaan Mataram Kuno, juga dikenal sebagai Kerajaan Medang, adalah kerajaan Hindu-Buddha yang berdiri pada abad ke-8 hingga ke-11 Masehi, dengan pusat pemerintahan awalnya di Jawa Tengah dan kemudian berpindah ke Jawa Timur. Didirikan oleh Raja Sanjaya, kerajaan ini terkenal dengan peninggalan budayanya yang megah, seperti Candi Borobudur dan Candi Prambanan. Sejarah dan Perkembangan Mataram Kuno mengalami masa kejayaan di bawah Dinasti Sanjaya dan Syailendra. Kerajaan ini menjalin hubungan erat dengan Kerajaan Sriwijaya, yang memfasilitasi pertukaran budaya dan perdagangan. Namun, konflik internal antara dua dinasti ini menyebabkan perpecahan dan keruntuhan kerajaan pada awal abad ke-11."
                 android:textAlignment="textStart"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -78,7 +79,9 @@
                 android:lineSpacingExtra="0sp"
                 android:paddingTop="25px"
                 android:text="Peninggalan Budaya Peninggalan arsitektur seperti Candi Borobudur—candi Buddha terbesar di dunia—dan Candi Prambanan—kompleks candi Hindu terbesar di Indonesia—menjadi bukti kejayaan peradaban Mataram Kuno. Peninggalan ini tidak hanya menunjukkan kemajuan seni dan arsitektur tetapi juga pengaruh budaya yang meluas hingga ke wilayah lain di Asia Tenggara. Warisan Sejarah Kerajaan Mataram Kuno meninggalkan warisan budaya yang signifikan, mencerminkan kemajuan dalam bidang politik, ilmu pengetahuan, dan seni. Meskipun kerajaannya telah runtuh, warisan budaya ini tetap hidup dalam sejarah Indonesia hingga saat ini."
-                android:textStyle="bold" />
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
 
 
         </LinearLayout>
@@ -105,12 +108,15 @@
         app:layout_constraintVertical_bias="0.42"
         app:srcCompat="@drawable/btn_back" />
 
-    <Button
-        android:id="@+id/BA1"
+    <ImageView
+        android:id="@+id/imageView30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:text="Next"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.422"
+        app:srcCompat="@drawable/btn_next" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,6 +3,7 @@ package com.example.app_kerajaan;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,10 +15,10 @@ public class prasasti_demak extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_prasasti_peninggalan_demak);
 
-        Button back = findViewById(R.id.BB1T);
+        ImageView back = findViewById(R.id.imageView34);
 
         back.setOnClickListener(V -> {
-            startActivity(new Intent(prasasti_demak.this, DetailDemak.class));
+            startActivity(new Intent(prasasti_demak.this, Menu.class));
         });
     }
 }

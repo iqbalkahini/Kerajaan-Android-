@@ -68,6 +68,7 @@
                 android:lineSpacingExtra="0sp"
                 android:text="Kerajaan Islam Demak, yang didirikan sekitar tahun 1475 oleh Raden Patah, memainkan peran penting dalam penyebaran Islam di Pulau Jawa. Di bawah pemerintahan Sultan Trenggana (1521–1546), Demak mencapai puncaknya, memperluas pengaruhnya ke wilayah seperti Cirebon, Banten, dan pesisir utara Jawa. Namun, setelah kematian Sultan Trenggana, kerajaan ini mengalami perpecahan internal akibat konflik suksesi, yang akhirnya menyebabkan keruntuhannya dan digantikan oleh Kerajaan Pajang. Meskipun demikian, warisan Islam yang ditanamkan oleh Demak tetap bertahan dan memberikan pengaruh besar pada kerajaan-kerajaan Islam selanjutnya di Jawa."
                 android:textAlignment="textStart"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -78,6 +79,7 @@
                 android:lineSpacingExtra="0sp"
                 android:paddingTop="25px"
                 android:text="Peninggalan-peninggalan dari Kerajaan Demak, seperti Masjid Agung Demak yang dibangun pada masa Sultan Trenggana, masih menjadi simbol kejayaan Islam di Jawa hingga kini. Selain itu, peninggalan arsitektur Islam Jawa yang menggabungkan elemen lokal dan Timur Tengah, serta makam-makam para sultan dan pejabat kerajaan, mencerminkan perkembangan seni dan budaya Islam di Jawa. "
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
 
@@ -105,12 +107,15 @@
         app:layout_constraintVertical_bias="0.42"
         app:srcCompat="@drawable/btn_back" />
 
-    <Button
-        android:id="@+id/BA1"
+    <ImageView
+        android:id="@+id/imageView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:text="Next"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.422"
+        app:srcCompat="@drawable/btn_next" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

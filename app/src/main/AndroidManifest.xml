@@ -14,25 +14,25 @@
         tools:targetApi="31">
         <activity
             android:name=".DetailTarumanegara"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".DetailMataram"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".DetailMajapahit"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".DetailKutai"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".DetailDemak"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".DetailSriwijaya"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".DetailBali"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".DetailSingosari"
             android:exported="true" />
@@ -44,6 +44,15 @@
             android:exported="true" />
         <activity
             android:name=".prasasti_aceh"
+            android:exported="true" />
+        <activity
+            android:name=".prasasti_mataram"
+            android:exported="true" />
+        <activity
+            android:name=".prasasti_kutai"
+            android:exported="true" />
+        <activity
+            android:name=".prasasti_demak"
             android:exported="true" />
         <activity
             android:name=".prasasti_sriwijaya"

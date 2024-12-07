@@ -14,7 +14,7 @@ public class prasasti_aceh extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_prasasti_peninggalan_aceh);
 
-        ImageView back = findViewById(R.id.imageView19);
+        ImageView back = findViewById(R.id.BackButton1);
 
         back.setOnClickListener(V -> {
             startActivity(new Intent(prasasti_aceh.this, Menu.class));

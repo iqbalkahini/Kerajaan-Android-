@@ -92,7 +92,6 @@
                 android:text="Meskipun telah lama runtuh, Kerajaan Tarumanegara meninggalkan warisan budaya yang sangat berharga bagi bangsa Indonesia. Keberadaannya menjadi bukti bahwa peradaban manusia di Nusantara telah berkembang sejak zaman dahulu. Nilai-nilai luhur seperti kepemimpinan yang bijaksana, pembangunan infrastruktur, dan penghormatan terhadap lingkungan hidup yang tercermin dalam sejarah Tarumanegara masih relevan hingga saat ini."
                 android:textStyle="bold" />
 
-
         </LinearLayout>
     </ScrollView>
 
@@ -127,4 +126,6 @@
         app:layout_constraintTop_toBottomOf="@+id/scrollView2"
         app:layout_constraintVertical_bias="0.422"
         app:srcCompat="@drawable/btn_next" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

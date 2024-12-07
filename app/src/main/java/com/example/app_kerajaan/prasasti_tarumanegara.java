@@ -3,6 +3,7 @@ package com.example.app_kerajaan;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,7 +15,7 @@ public class prasasti_tarumanegara extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_prasasti_peninggalan_tarumanegara);
 
-        Button back = findViewById(R.id.BB1T);
+        ImageView back = findViewById(R.id.BackButton1);
 
         back.setOnClickListener(V -> {
             startActivity(new Intent(prasasti_tarumanegara.this, DetailTarumanegara.class));

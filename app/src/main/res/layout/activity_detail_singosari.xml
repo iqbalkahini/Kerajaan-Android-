@@ -83,7 +83,6 @@
                 android:textStyle="bold"
                 android:visibility="visible" />
 
-
         </LinearLayout>
     </ScrollView>
 

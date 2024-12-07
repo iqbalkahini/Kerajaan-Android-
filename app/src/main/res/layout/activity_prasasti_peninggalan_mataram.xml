@@ -161,16 +161,15 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
-    <Button
-        android:id="@+id/BB1T"
+    <ImageView
+        android:id="@+id/BackButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="16dp"
-        android:fontFamily="@font/ubuntu_medium"
-        android:text="Back"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="36dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/btn_menu" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

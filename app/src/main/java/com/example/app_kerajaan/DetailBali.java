@@ -21,8 +21,8 @@ public class DetailBali extends AppCompatActivity {
         back.setOnClickListener(V -> {
             startActivity(new Intent(DetailBali.this, Menu.class));
         });
-//        next.setOnClickListener(V -> {
-//            startActivity(new Intent(DetailBali.this, prasasti_bali.class));
-//        });
+       next.setOnClickListener(V -> {
+           startActivity(new Intent(DetailBali.this, prasasti_bali.class));
+       });
     }
 }

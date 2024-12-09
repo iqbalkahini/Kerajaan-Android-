@@ -24,8 +24,8 @@ public class DetailMajapahit extends AppCompatActivity {
         back.setOnClickListener(V -> {
             startActivity(new Intent(DetailMajapahit.this, Menu.class));
         });
-//        next.setOnClickListener(V -> {
-//            startActivity(new Intent(DetailMajapahit.this, prasasti_majapahit.class));
-//        });
+        next.setOnClickListener(V -> {
+            startActivity(new Intent(DetailMajapahit.this, prasasti_majapahit.class));
+       });
     }
 }

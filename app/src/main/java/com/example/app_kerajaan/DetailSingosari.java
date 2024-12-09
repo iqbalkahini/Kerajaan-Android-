@@ -24,8 +24,8 @@ public class DetailSingosari extends AppCompatActivity {
         back.setOnClickListener(V -> {
             startActivity(new Intent(DetailSingosari.this, Menu.class));
         });
-//        next.setOnClickListener(V -> {
-//            startActivity(new Intent(DetailSingosari.this, prasasti_singosari.class));
-//        });
+        next.setOnClickListener(V -> {
+            startActivity(new Intent(DetailSingosari.this, prasasti_singosari.class));
+        });
     }
 }

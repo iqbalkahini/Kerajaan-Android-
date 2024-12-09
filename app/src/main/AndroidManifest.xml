@@ -93,6 +93,21 @@
             android:configChanges="orientation"
             android:screenOrientation="portrait"/>
         <activity
+            android:name=".prasasti_majapahit"
+            android:exported="true"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".prasasti_singosari"
+            android:exported="true"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".prasasti_bali"
+            android:exported="true"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.App_Kerajaan"

@@ -18,7 +18,7 @@ public class prasasti_mataram extends AppCompatActivity {
         ImageView back = findViewById(R.id.BackButton1);
 
         back.setOnClickListener(V -> {
-            startActivity(new Intent(prasasti_mataram.this, DetailMataram.class));
+            startActivity(new Intent(prasasti_mataram.this, Menu.class));
         });
     }
 }

@@ -1,0 +1,128 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sigmas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/details" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="Peninggalan Kerajaan Majapahit"
+        android:textAlignment="center"
+        android:textColor="#FFFBFB"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/sv_a1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="164dp"
+        android:contentDescription="@string/app_name"
+        android:scrollbarStyle="insideInset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageView20"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="207dp"
+                android:layout_height="229dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="16dp"
+                android:text="Canggu adalah wilayah administratif peninggalan Kerajaan Majapahit (1293–1527) yang terletak di sekitar sungai, berfungsi sebagai pusat ekonomi, pertanian, dan perdagangan. Wilayah ini strategis untuk pengumpulan pajak dan distribusi hasil pertanian, mencerminkan perencanaan tata wilayah Majapahit yang maju."
+                android:textAlignment="center"
+                app:layout_constraintStart_toEndOf="@+id/imageView22"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="160dp"
+                android:layout_height="139dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="100dp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView23"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/prasasti_majapahit1" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="212dp"
+                android:layout_height="189dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Prasasti Kudadu (1294 M), juga disebut Prasasti Gunung Buthak, adalah peninggalan Kerajaan Majapahit yang menceritakan pelarian Raden Wijaya dari Jayakatwang. Prasasti ini mencatat bantuan kepala Desa Kudadu, yang diberi penghargaan berupa penghapusan pajak setelah Raden Wijaya mendirikan Majapahit."
+                android:textAlignment="center"
+                app:layout_constraintStart_toEndOf="@+id/imageView23"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="162dp"
+                android:layout_height="135dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="84dp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/prasasti_majapahit2" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="226dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:text="Prasasti Sukamerta, juga dikenal sebagai Prasasti Raden Wijaya, bertanggal 1208 Saka (1296 M). Prasasti ini mencatat penganugerahan tanah sima kepada Petinggi Desa Sukamerta sebagai penghargaan atas bantuannya dalam pelarian Raden Wijaya menuju Sumenep, tempat ia bertemu Arya Wiraraja yang membantu mendirikan Kerajaan Majapahit."
+                android:textAlignment="center"
+                app:layout_constraintStart_toEndOf="@+id/imageView24"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="162dp"
+                android:layout_height="137dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/prasasti_majapahit3" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/BackButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/btn_menu" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

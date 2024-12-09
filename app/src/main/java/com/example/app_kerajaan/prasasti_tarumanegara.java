@@ -18,7 +18,7 @@ public class prasasti_tarumanegara extends AppCompatActivity {
         ImageView back = findViewById(R.id.BackButton1);
 
         back.setOnClickListener(V -> {
-            startActivity(new Intent(prasasti_tarumanegara.this, DetailTarumanegara.class));
+            startActivity(new Intent(prasasti_tarumanegara.this, Menu.class));
         });
     }
 }

@@ -19,7 +19,7 @@ public class prasasti_kutai extends AppCompatActivity {
         ImageView back = findViewById(R.id.BackButton1);
 
         back.setOnClickListener(V -> {
-            startActivity(new Intent(prasasti_kutai.this, DetailKutai.class));
+            startActivity(new Intent(prasasti_kutai.this, Menu.class));
         });
     }
 }

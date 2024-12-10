@@ -7,17 +7,17 @@ import android.widget.ImageView;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class prasasti_singosari extends AppCompatActivity {
+public class DetailCredit extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_prasasti_peninggalan_singosari);
+        setContentView(R.layout.activity_credit);
 
-        ImageView back = findViewById(R.id.BackButton1);
+        ImageView back = findViewById(R.id.imageView34);
 
         back.setOnClickListener(V -> {
-            startActivity(new Intent(prasasti_singosari.this, Menu.class));
+            startActivity(new Intent(DetailCredit.this, Menu.class));
         });
     }
 }

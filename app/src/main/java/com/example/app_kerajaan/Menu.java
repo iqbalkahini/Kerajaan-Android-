@@ -28,6 +28,7 @@ public class Menu extends AppCompatActivity {
         ImageView mataram = findViewById(R.id.imageView10);
         ImageView sriwijaya = findViewById(R.id.imageView11);
         ImageView tarumanegara = findViewById(R.id.imageView12);
+        ImageView credit = findViewById(R.id.imageView13);
 
         aceh.setOnClickListener(V -> {
             startActivity(new Intent(Menu.this, DetailAceh.class));
@@ -55,6 +56,9 @@ public class Menu extends AppCompatActivity {
         });
         tarumanegara.setOnClickListener(V -> {
             startActivity(new Intent(Menu.this, DetailTarumanegara.class));
+        });
+        credit.setOnClickListener(V -> {
+            startActivity(new Intent(Menu.this, DetailCredit.class));
         });
     }
 }
